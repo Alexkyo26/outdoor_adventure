@@ -1,9 +1,5 @@
 @import "./header/header_variables.css";
 
-.main1 {
-    display: flex;
-}
-
 main section p {
     color: var(--main-link-color);
     font-family: var(--font-nav);
@@ -13,11 +9,13 @@ main section p {
     width: 70%;
 }
 
-main section img {
+main section .imageflex1 img {
     box-shadow: var(--shadow-box);
     margin-bottom: 3%;
-    width: 65%;
+    width: 80%;
 }
+
+/* classe première section */
 
 .adam {
     display: flex;
@@ -42,48 +40,117 @@ main section img {
 
 .upcoming hr {
     width: 90px;
-    border: 2px solid var(--cta-link-color);
+    border: 1px solid var(--cta-link-color);
     margin-bottom: 3%;
 }
 
-.imageconteneur {
+/* Classe deuxième section */
+
+.imageconteneur1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 6%;
 }
+
+/* art 1 et 2 sec 1 */
 
 .imageflex1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 30%;
     gap: 20px;
+    max-width: ;
 }
+
+/* Classe troisième section */
 
 .parallaxhome2 {
     background-image: linear-gradient(rgba(19, 19, 19, 0.5),rgba(19, 19, 19, 0.5)), url(../../Images_projet/image_home/section-bg-img.jpg);
-    height: 500px;
+    height: 596px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .titrehome2{
     display: flex;
     justify-content: flex-end;
+    align-items: left;
+    padding-top: 9%;
 }
 
 .titrehome2 p {
     color: var(--header-link-color);
+    text-align: left;
+    width: 62%;
+    padding: 0 0 3% 0;
+}
+
+.titrehome2 h2 {
+    color: var(--header-link-color);
 }
 .titrehome2 hr {
     width: 62.4px;
-    border: 2px solid var(--cta-link-color);
-    margin-bottom: 3%;
+    border: 1px solid var(--cta-link-color);
 }
 
 .titrehome2bis {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    width: 49%;
+    gap: var(--gap-img);
+}
+
+/* Classe quatrième section */
+
+/* art 1 sec 4 */
+
+.conteneurhome1 {
+    display: flex;
+    padding: 6% 0 6% 0;
+}
+
+.conteneurhome1bis {
+    display: flex;
+}
+
+.titrehome3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: var(--gap-img);
+}
+
+.titrehome3 hr {
+    width: 46px;
+    border: 1px solid var(--cta-link-color);
+}
+
+.titrehome3 p {
+    text-align: left;
+}
+/* art 2 sec 4 */
+
+.imageconteneur2 {
+    display: flex;
+    gap: 40px;
+}
+
+.imageflex2 {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-img);
+    max-width: var(--max-width-1);
+}
+
+.imageflex3 {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-img);
+    max-width: var(--max-width-1);
 }
