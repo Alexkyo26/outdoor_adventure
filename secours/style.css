@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+background-image: url(./Images_projet/image_header/backgroundindeximage.jpg);
+height: 100vh;
+}
+
+nav {
+    color: #000000ec;
+    font-size: 16px;
+    font-family: "Montserrat";
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+
+h1 {
+    color: #ffffffec;
+    text-align: center;
+}
+

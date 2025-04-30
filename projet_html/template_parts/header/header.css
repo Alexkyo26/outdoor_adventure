@@ -1,0 +1,61 @@
+@import "./header_variables.css";
+
+header hr {
+    width: 62.4px;
+    border: 1px solid var(--cta-link-color);
+}
+
+.parallaxhome1 {
+    background-image: linear-gradient(rgba(19, 19, 19, 0.5),rgba(19, 19, 19, 0.5)), url(../../Images_projet/image_header/backgroundindeximage.jpg);
+    height: 830px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titrehome1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+    gap: 20px;
+}
+.navbarconteneur {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 1% 17vw; 
+}
+
+.logo {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.internavbar {
+    display: flex;
+    align-items: center;
+}
+
+
+.hamburger-icon {
+    fill: var(--header-link-color);
+    }
+    
+.hamburger-button { 
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: var(--cta-link-color);
+    border: none;
+    cursor: pointer;
+    }
+
+

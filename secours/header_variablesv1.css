@@ -1,0 +1,12 @@
+:root {
+    --header-link-color: rgb(250, 246, 246);
+    --main-link-color: #404040;
+    --h2-color: #191919;
+    --cta-link-color: #FB2056;
+    --font-nav: "Noto Sans";    
+    --font-text: "Montserrat";
+    --font-bold: 700;
+    --font-normal: 400;
+    --shadow-box: 10px 10px 0px 1px rgba(0,0,0,0.07)
+
+}

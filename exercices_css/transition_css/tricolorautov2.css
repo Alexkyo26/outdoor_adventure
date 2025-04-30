@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    background-color: grey;
+    height: 300px;
+    margin: 50px 50px;
+    padding-top: 10px;
+    gap: 30px;
+}
+
+
+.feu {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    opacity: 0;
+}
+.feurouge {
+    background-color: red;
+    animation: Feurouge 10s infinite;
+}
+
+.feurouge1{
+    background-color: red;
+    animation: Feurouge1 10s infinite;
+}
+.feuorange {
+    background-color: orange;
+    animation: Feuorange 10s infinite;
+}
+
+.feuorange1 {
+    background-color: orange;
+    animation: Feuorange1 10s infinite;
+}
+
+.feuvert {
+    background-color: green;
+    animation: Feuvert 10s infinite;
+}
+
+.feuvert1 {
+    background-color: green;
+    animation: Feuvert1 10s infinite;
+}
+
+@keyframes Feurouge{
+    0% {opacity: 1;}
+    15% {opacity: 1;}
+    30% {opacity: 1;}
+    32% {opacity: 1;}
+    33% {opacity: 0;}
+    50% {opacity: 0;
+    }
+    74% {opacity: 0;}
+    75% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@keyframes Feuorange{
+    0% {opacity: 0;}
+    32% {opacity: 0;}
+    33% {opacity: 1;}
+    40% {opacity: 1;}
+    49% {opacity: 1;}
+    50% {opacity: 0;}
+}
+
+
+@keyframes Feuvert{
+    0% {opacity: 0;}
+    33% {opacity: 0;}
+    49% {opacity: 0;}
+    50% {opacity: 1;}
+    65% {opacity: 1;}
+    74% {opacity: 1;}
+    75% {opacity: 0;}
+}
+ 
+@keyframes Feuvert1{
+0% {opacity: 1;}
+24% {opacity: 1;}
+25% {opacity: 0;}
+}
+
+@keyframes Feuorange1{
+24% {opacity: 0;}
+25% {opacity: 1;}
+49% {opacity: 1;}
+50% {opacity: 0;}
+}
+
+
+@keyframes Feurouge1{
+0% {opacity: 0;}
+49% {opacity: 0;}
+50% {opacity: 1;}
+99% {opacity: 1;}
+100% {opacity: 0;}
+}
+

@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 320px;
+    background-color: #999999;
+    padding: 20px;
+}
+
+.image-container {
+    max-width: 320px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    transition: transform 3s;
+}
+
+.image-container img:hover{
+    transform: scale(2);
+}

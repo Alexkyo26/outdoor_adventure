@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url(../univers.webp);
+    background-size: cover;
+}
+
+.soleil {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background-color: yellow;
+}
+
+
+.mercurebox {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(181, 181, 181, 0);
+    position: absolute;
+    animation: mercure 5s infinite linear;
+} 
+
+.mercurebox div {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(150, 0, 0);
+    border-radius: 50%;
+}
+
+.terrebox {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 255, 0);
+    position: absolute;
+    animation: terre 7s infinite linear;
+}
+
+.terrebox div {
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.satelitteterrebox {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    position: absolute;
+}
+.marsbox {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 0, 0, 0);
+    animation: mars 10s infinite linear;
+    position: absolute;
+}
+.marsbox div {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.jupiterbox {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 166, 0, 0);
+    position: absolute;
+    animation: jupiter 15s infinite linear;
+}
+
+.jupiterbox div {
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+@keyframes mercure{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes terre{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes mars{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes jupiter{
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+

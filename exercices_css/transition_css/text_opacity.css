@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cards {
+    width: 200px;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+
+}
+
+.description {
+    opacity: 0;
+}
+
+.cards:hover .description {
+    opacity: 1;
+    transition: opacity 2s;
+}

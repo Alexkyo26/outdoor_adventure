@@ -1,0 +1,45 @@
+@import "./header/header_variables.css";
+
+main section p {
+    color: var(--main-link-color);
+    font-family: var(--font-nav);
+    font-size: 1.3em;
+    gap: 10px;
+}
+
+main section img {
+    box-shadow: var(--shadow-box)
+}
+
+.adam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+#adam {
+    font-size: 1rem;
+}
+.upcoming {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 162px;
+    gap: 20px;
+}
+
+.imageconteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imageflex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}

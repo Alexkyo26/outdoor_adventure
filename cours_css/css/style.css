@@ -1,0 +1,68 @@
+/* @import "./root.css";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul {
+    color: var(--my-color);
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 15px;
+} */
+
+header {
+    height: 90vh;
+    background-image: linear-gradient(rgba(19, 19, 19, 0.5), rgba(19, 19, 19, 0.5)), url(./image/backgroundindeximage.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no no-repeat;
+    color: #f5f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header nav {
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav img {
+    width: 150px;
+}
+
+header div {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #f5f5f5f5;
+    text-decoration: none;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+

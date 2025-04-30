@@ -1,0 +1,11 @@
+@import "style_variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@include my-nav();
+
+
+

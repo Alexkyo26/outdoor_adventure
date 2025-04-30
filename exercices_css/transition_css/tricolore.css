@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    background-color: grey;
+    height: 300px;
+    margin: 50px 50px;
+    padding-top: 10px;
+    gap: 30px;
+}
+
+.feurouge {
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    border-radius: 50px;
+    opacity: 0;
+    transition: background-color 1s;
+}
+
+.feuorange {
+    width: 75px;
+    height: 75px;
+    background-color: orange;
+    border-radius: 50px;
+    opacity: 0;
+}
+
+.feuvert {
+    width: 75px;
+    height: 75px;
+    background-color: green;
+    border-radius: 50px;
+    opacity: 0;
+}
+
+div:hover {
+    opacity: 1;
+}
+
