@@ -1,0 +1,19 @@
+@import "./header_variables.css";
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(10, 1, 1);
+    height: 20vh;
+    gap: var(--gap-simple);
+}
+
+footer p {
+    color: var(--header-link-color);
+    font-family: var(--font-nav);
+    text-align: center;
+    font-size: 1rem;
+    line-height: var(--line-height);
+}

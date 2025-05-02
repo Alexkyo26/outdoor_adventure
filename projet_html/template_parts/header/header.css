@@ -20,7 +20,7 @@ header hr {
     justify-content: center;
     align-items: center;
     margin-top: 12%;
-    gap: 20px;
+    gap: var(--gap-simple);
 }
 .navbarconteneur {
     display: flex;

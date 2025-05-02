@@ -10,7 +10,9 @@
     --shadow-box: 10px 10px 0px 1px rgba(0,0,0,0.07);
     --button-height: 48px;
     --button-width: 195px;
-    --gap-img: 20px;
+    --gap-simple: 20px;
+    --gap-double: 40px;
+    --max-width: 100%;
     --max-width-1: 34%;
-    --left-align: left;
+    --line-height: 27px;
 }

@@ -1,5 +1,6 @@
 @import "../template_parts/header/header.css";
 @import "../template_parts/main/main.css";
+@import "../template_parts/footer/footer.css";
 
 * {
     padding: 0;
@@ -53,7 +54,29 @@ h5 {
     cursor: pointer;
 }
 
+@media (max-width: 1600px) {
+    .conteneurhome1 {
+        flex-direction: column;  /*problème d'affichage des autres images en dessous de 1600px*/
+    }
 
+    .titrehome3 {
+        padding-right: 10%;
+    }
+    .imageconteneur2 {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .imageflex2 {
+        padding-top: 10%;
+        max-width: var(--max-width);
+    }
+
+    .imageflex3 {
+        max-width: var(--max-width);
+    }
+}
 @media (max-width: 992px) {
     .hamburger-button {
         display: flex;
@@ -69,19 +92,21 @@ h5 {
         font-size: 1rem;
     }
     
+    .parallaxhome2 {
+        height: 450px;
+    }
     .imageconteneur1 {
         flex-direction: column;
         align-items: center;
-        gap: 40px;
+        gap: var(--gap-double);
     }
 
     .imageflex1 {
         width: 90%;
     }
     main section {
-        width: 100%;
+        width: var(--max-width);
     }
-
 }
 
 @media (max-width: 768px) {
@@ -90,7 +115,7 @@ h5 {
     }
 
     header section h1 {
-    font-size: 2.5rem;
+        font-size: 2.5rem;
     }
     header section h3 {
         font-size: 1rem;
@@ -102,20 +127,25 @@ h5 {
 
     main section p {
         font-size: 1rem;
-        width: 100%;
+        width: var(--max-width);
     }
-
+    
     .titrehome2bis {
-        width: 100%;
+        width: var(--max-width);
         padding-left: 3%;
     }
 
-    .titrehome2bis p {
-        width: 100%;
-    }
-
     .titrehome2bis h2 {
-        display: flex;
+        text-align: left;
     }
 
+    .titrehome2bis p {
+        width: var(--max-width);
+    }
+
+@media (max-width: 400px) {
+    footer p {
+        font-size: 0.5rem;
+    }
+    }
 }
