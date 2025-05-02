@@ -33,6 +33,19 @@ header hr {
     display: flex;
 }
 
+.hamburger-icon {
+    fill: var(--header-link-color);
+}
+    
+.hamburger-button { 
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: var(--cta-link-color);
+    border: none;
+    cursor: pointer;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -44,18 +57,9 @@ header hr {
     align-items: center;
 }
 
+.titrehome1 .cta {
+    margin-top: 3%;
+}
 
-.hamburger-icon {
-    fill: var(--header-link-color);
-    }
-    
-.hamburger-button { 
-    display: none;
-    width: 40px;
-    height: 40px;
-    background-color: var(--cta-link-color);
-    border: none;
-    cursor: pointer;
-    }
 
 

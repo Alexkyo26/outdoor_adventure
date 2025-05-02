@@ -55,6 +55,7 @@ h5 {
 }
 
 @media (max-width: 1600px) {
+    
     .conteneurhome1 {
         flex-direction: column;  /*problème d'affichage des autres images en dessous de 1600px*/
     }
@@ -77,7 +78,9 @@ h5 {
         max-width: var(--max-width);
     }
 }
+
 @media (max-width: 992px) {
+
     .hamburger-button {
         display: flex;
         justify-content: center;
@@ -110,6 +113,7 @@ h5 {
 }
 
 @media (max-width: 768px) {
+
     section {
         text-align: center;
     }
@@ -144,6 +148,7 @@ h5 {
     }
 
 @media (max-width: 400px) {
+
     footer p {
         font-size: 0.5rem;
     }
